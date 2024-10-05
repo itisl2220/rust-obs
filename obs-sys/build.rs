@@ -37,6 +37,7 @@ fn main() {
             #[cfg(windows)]
             "-Wno-error=implicit-function-declaration",
             "-I./obs/libobs/",
+            "-I./obs/libobs/graphics/",
             "-I./obs/UI/obs-frontend-api/",
         ])
         .blocklist_type("_bindgen_ty_2")
